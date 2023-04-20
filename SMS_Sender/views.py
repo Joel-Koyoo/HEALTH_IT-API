@@ -35,13 +35,13 @@ def send_sms(request):
     phone_number = serializer.validated_data['phone_number']
 
     # Initialize the Twilio client with your account SID and auth token
-    client = Client("AC5c26da8824935273141dd1cd696d847c", "d656e5ed3afa70c1d74923cfaf98294f")
+    client = Client("", "")
 
     # Send the SMS message
     message = client.messages.create(
         to=phone_number,
         body=MESSAGE,
-        from_="+15854604566"
+        from_=""
     )
 
     # Save the SMS to the database with the current time as the sent time
