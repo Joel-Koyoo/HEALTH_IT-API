@@ -31,11 +31,11 @@ ALLOWED_HOSTS = ['https://1e94-197-248-176-94.ngrok.io', '1e94-197-248-176-94.ng
 
 
 # Add SMS configuration to Django settings
-# SMS_USERNAME = 'BlackBurn'
-# SMS_API_KEY = 'b57dd6fd1236dcb24cb51b08dad81230c8cf15b6745a4dc387f3834792dc9ed8'
+# SMS_USERNAME = ''
+# SMS_API_KEY = ''
 
 # SMS_USERNAME = 'sandbox'
-# SMS_API_KEY = '4e37cb10c493d1c51cb6a567343ddeac7632849277fd85700a49dee10955c135'
+# SMS_API_KEY = ''
 
 # # Initialize the SDK
 # africastalking.initialize(SMS_USERNAME, SMS_API_KEY)
