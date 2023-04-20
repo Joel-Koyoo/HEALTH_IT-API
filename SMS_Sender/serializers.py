@@ -35,7 +35,7 @@ class SMSMessageSerializer(serializers.Serializer):
         sms.save()
 
         # Initialize the Twilio client with your account SID and auth token
-        client = Client("AC5c26da8824935273141dd1cd696d847c", "d656e5ed3afa70c1d74923cfaf98294f")
+        client = Client("", "")
 
         # Send the SMS message
         message = client.messages.create(
